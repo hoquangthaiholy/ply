@@ -6,7 +6,7 @@
 import ylex
 tokens = ylex.tokens
 
-from ply import *
+from ply import yacc
 
 tokenlist = []
 preclist = []

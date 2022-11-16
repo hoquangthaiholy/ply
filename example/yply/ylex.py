@@ -3,7 +3,7 @@
 # Author: David Beazley (dave@dabeaz.com)
 # Date  : October 2, 2006
 
-from ply import *
+from ply import lex
 
 tokens = (
     'LITERAL', 'SECTION', 'TOKEN', 'LEFT', 'RIGHT', 'PREC', 'START', 'TYPE', 'NONASSOC', 'UNION', 'CODE',
